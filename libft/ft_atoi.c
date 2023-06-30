@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 12:30:08 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/02 13:47:31 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:42:08 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ int	ft_atoi(const char *str)
 		num *= -1;
 	return (num);
 }	
-
-// int	main(void)
-// {
-// 	const char str[] = "\n\t -35f";
-// 	int a = ft_atoi(str);
-// 	int b = atoi(str);
-// 	printf("ft_atoi: %d\n", a);
-// 	printf("atoi: %d\n", b);
-// 	return (0);
-// }

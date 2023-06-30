@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/05 18:01:10 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/07 21:18:17 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:27 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,18 +90,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (strings);
 }
-
-// int	main(void)
-// {
-// 	char string[] = "lorem ipsum dolor sit amet,adipiscing elit. d mi.";
-// 	int num = strings_num(string, 'i');
-// 	printf("%d\n", num);
-// 	char **result = ft_split(string, 'i');
-// 	int i = 0;
-// 	while (result[i])
-// 	{
-// 		printf("%s\n", result[i]);
-// 		i++;
-// 	}
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/08 09:29:17 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/08 18:00:08 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:42:55 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,18 +120,3 @@ char	*ft_itoa(int n)
 		return (itoa_int_min(a));
 	return (check_int_sign(n, digits_num, positive_n, a));
 }
-
-// int	main(void)
-// {
-// 	int i = count_digits(-2147483648);
-// 	printf("NUMBER OF DIGITS: %d\n", i);
-// 	char *a = ft_itoa(-2147483648);
-// 	int j = 0;
-// 	printf("a is: %s\n", a);
-// 	while (j < i)
-// 	{
-// 		printf("a[%d] = %c\n",j, a[j]);
-// 		j++;
-// 	}
-// 	return (0);
-// }

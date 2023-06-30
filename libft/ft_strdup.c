@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/02 12:46:51 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/02 13:45:09 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:36 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,3 @@ char	*ft_strdup(const char *s1)
 	ft_strlcpy(p_new_string, s1, total_size);
 	return (p_new_string);
 }
-
-// int	main(void)
-// {
-// 	char s1[] = "Farshad";
-// 	char *new_string1;
-// 	char *new_string2;
-// 	new_string1 = ft_strdup(s1);
-// 	new_string2 = strdup(s1);
-// 	printf("ft_strdup: %s\n", new_string1);
-// 	printf("strdup: %s\n", new_string2);
-
-// 	int result = ft_memcmp(new_string1, new_string2, 8);
-// 	printf("%d\n", result);
-// 	return (0);
-// }

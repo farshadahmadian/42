@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 15:28:17 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/29 15:37:14 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:45:22 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,3 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
-
-// int	main(void)
-// {	int c;
-
-// 	c = 'F';
-// 	printf("%c\n", ft_tolower(c));
-// 	printf("%c\n", tolower(c));
-// 	return (0);
-// }

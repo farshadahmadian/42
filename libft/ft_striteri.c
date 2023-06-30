@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/09 11:12:30 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/09 11:25:26 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:40 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,19 +26,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-// void	change_char(unsigned int i, char *c)
-// {
-// 	int	j;
-// 	j = i;
-// 	*c = '?';
-// }
-
-// int	main(void)
-// {
-// 	char name[] = "Farshad";
-// 	ft_striteri(name, change_char);
-// 	printf("Value of variable name after change_char() function applied:\n");
-// 	printf("%s\n", name);
-// 	return (0);
-// }

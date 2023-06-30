@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 15:08:36 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/17 12:44:37 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:42:31 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	int	num;
-
-// 	num = 'f';
-// 	printf("%d\n", ft_isalnum(num));
-// 	printf("%d\n", isalnum(num));
-// }

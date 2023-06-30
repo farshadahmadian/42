@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/09 13:39:55 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/09 19:29:38 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:18 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,10 +76,3 @@ void	ft_putnbr_fd(int n, int fd)
 		}
 	}
 }
-
-// int	main(void)
-// {
-// 	int a = -2348;
-// 	ft_putnbr_fd(a, 1);
-// 	return (0);
-// }

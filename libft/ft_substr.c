@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/02 13:53:53 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/03 12:15:54 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:45:18 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,18 +31,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(p_substring, s + start, len + 1);
 	return (p_substring);
 }
-
-// int	main(void)
-// {
-// 	// char s[] = "Farshad Ahmadian";
-// 	char *substring1 = ft_substr("", 1, 1);
-// 	printf("%p\n", substring1);
-// 	// if (!substring1)
-// 	// 	return (0);
-// 	// while (*substring1)
-// 	// {
-// 	// 	printf("%c\n", *substring1);
-// 	// 	substring1++;
-// 	// }
-// 	return (0);
-// }

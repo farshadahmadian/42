@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 12:42:39 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/25 18:33:03 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:42:46 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	char	num;
-
-// 	num = '2';
-// 	printf("%d\n", ft_isdigit(num));
-// 	printf("%d\n", isdigit(num));
-// }

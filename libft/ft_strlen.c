@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 15:59:55 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/28 15:58:37 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:57 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,13 +23,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-
-// int	main(void)
-// {
-// 	char	*s;
-
-// 	s = "Farshad Ahmadian Yazdi";
-// 	printf("%lu\n", ft_strlen(s));
-// 	printf("%lu\n", strlen(s));
-// 	return (0);
-// }

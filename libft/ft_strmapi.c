@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/08 18:02:27 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/09 11:11:55 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:45:00 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,18 +32,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	p[i] = '\0';
 	return (p);
 }
-
-// char	compare(unsigned int i, char c)
-// {
-// 	int is_capital_letter = c >= 'A' && c <= 'Z';
-// 	if (is_capital_letter)
-// 		printf("%c is a capital letter: s[%d] = %c\n",c, i, c);
-// 	return (c);
-// }
-
-// int main(void)
-// {
-// 	char name[] = "Farshad Ahmadian Yazdi";
-// 	ft_strmapi(name, compare);
-// 	return (0);
-// }

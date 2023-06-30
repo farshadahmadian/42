@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 15:32:42 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/16 17:22:54 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:42:41 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	int	num;
-
-// 	num = 128;
-// 	printf("%d\n", ft_isascii(num));
-// 	printf("%d\n", ft_isascii(num));
-// }

@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/10 18:34:43 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/11 17:30:19 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:43:33 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,3 @@ t_list	*ft_lstnew(void *content)
 	new_list -> next = NULL;
 	return (new_list);
 }
-
-// int	main(void)
-// {	
-// 	char	*name = "Farshad";
-// 	ft_lstnew(name);
-// 	return (0);
-// }

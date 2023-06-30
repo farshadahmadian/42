@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/16 15:46:05 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/02 13:46:38 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:42:49 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-
-// int	main(void)
-// {
-// 	int	num;
-
-// 	num = 127;
-// 	printf("%d\n", ft_isprint(num));
-// 	printf("%d\n", isprint(num));
-// }

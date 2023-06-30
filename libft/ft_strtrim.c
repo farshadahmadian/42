@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 16:47:54 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/06 18:00:22 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:45:15 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,12 +39,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	s1_trimmed[size_to_copy] = '\0';
 	return (s1_trimmed);
 }
-
-// int	main()
-// {
-// 	char name[] = "    Farshad";
-// 	printf("length: %lu\n", ft_strlen(name));
-// 	char *final_string = ft_strtrim(name," ");
-// 	printf("%s\n", final_string);
-// 	return (0);
-// }

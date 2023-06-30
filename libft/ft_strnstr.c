@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/31 19:40:51 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/01 12:26:01 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:45:07 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,16 +35,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	char haystack[] = "Farshad Ahmadian Yazdi";
-// 	char needle[] = "Ahmadi";
-// 	char *p = ft_strnstr(haystack, needle, 14);
-// 	char *q = strnstr(haystack, needle, 14);
-// 	printf("HAYSTACK ADDRESS %p\n", haystack);
-// 	printf("ft_strnstr: %p\n", p);
-// 	printf("strnstr: %p\n", q);
-// 	printf("p == q: %d\n", p == q);
-// 	return (0);
-// }

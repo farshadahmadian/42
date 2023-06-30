@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/27 11:52:30 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/27 12:13:36 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:43:56 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,16 +40,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (p_dst);
 }
-
-// int	main(void)
-// {
-// 	char	dst1[] = "Farshad";
-// 	// char	src1[] = "?*&";
-// 	char	dst2[] = "Farshad";
-// 	// char	src2[] = "?*&";
-// 	ft_memmove(dst1 + 1, dst1 + 2, 3);
-// 	printf("dst1 After calling ft_memmove: %s\n", dst1);
-// 	memmove(dst2 + 1, dst2 + 2, 3);
-// 	printf("dst2 After calling memmove: %s\n", dst2);
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 11:55:27 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/04 16:46:39 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:44 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,18 +30,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(p_new_string, s2, total_size);
 	return (p_new_string);
 }
-
-// int	main(void)
-// {
-// 	char *s1 = "wwwwwwwwwdwwwwwwwwwwww";
-// 	char *s2 = "??????????";
-// 	char *final_string = ft_strjoin(s1, s2);
-// 	for (size_t i = 0; i < ft_strlen(final_string); i++)
-// 	{
-// 		printf("%c\n", final_string[i]);
-// 	}
-// 	printf("%s\n", final_string);
-// 	printf("%lu\n", sizeof("Where is my molloc?"));
-// 	printf("%lu\n", sizeof(final_string));
-// 	return (0);
-// }

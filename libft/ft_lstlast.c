@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/11 17:56:09 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/11 18:32:56 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:43:23 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,19 +23,3 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
-
-// int	main(void)
-// {
-// 	t_list *lst;
-// 	t_list *new;
-// 	t_list *newer;
-// 	t_list *last_node;
-// 	lst = ft_lstnew("Ahmadian");
-// 	new = ft_lstnew("Farshad");
-// 	newer = ft_lstnew("Mr.");
-// 	ft_lstadd_front(&lst, new);
-// 	ft_lstadd_front(&lst, newer);
-// 	last_node = ft_lstlast(lst);
-// 	printf("%s\n", last_node -> content);
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/09 11:27:04 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/04/09 12:45:56 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:44:04 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, sizeof(char));
 }
-
-// int	main(void)
-// {
-// 	ft_putchar_fd('F', 1);
-// }

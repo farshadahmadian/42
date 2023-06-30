@@ -6,7 +6,7 @@
 /*   By: fahmadia <fahmadia@student.42heilbronn.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/31 19:11:11 by fahmadia          #+#    #+#             */
-/*   Updated: 2023/03/31 19:38:03 by fahmadia         ###   ########.fr       */
+/*   Updated: 2023/06/30 17:43:49 by fahmadia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,14 +34,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	name1[] = "Farshada";
-// 	char	name2[] = "Farshadaa";
-// 	int a = ft_memcmp(name1, name2, 80);
-// 	int b = memcmp(name1, name2, 80);
-// 	printf("ft_memcmp: %d\n", a);
-// 	printf("memcmp: %d\n", b);
-// 	return (0);
-// }
